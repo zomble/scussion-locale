@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 08:02+1000\n"
-"PO-Revision-Date: 2011-08-27 00:19+0100\n"
-"Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
+"POT-Creation-Date: 2011-08-27 19:37+1000\n"
+"PO-Revision-Date: 2011-08-27 19:37+1000\n"
+"Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,23 +16,32 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
 
+#: ..\..\../source/views/Footer.php:1
+msgid "This site makes extensive use of JavaScript."
+msgstr ""
+
+#: ..\..\../source/views/Footer.php:1
+#, php-format
+msgid "Please %senable JavaScript%s in your browser."
+msgstr ""
+
 #: ..\..\../source/views/Footer.php:6
 msgid "Change Language"
 msgstr "Byt språk"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "Feedback"
 msgstr "Feedback"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "Status"
 msgstr "Status"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "API"
 msgstr "API"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "Mobile"
 msgstr "Mobil"
 
@@ -65,9 +74,17 @@ msgstr "Om oss"
 msgid "Assets"
 msgstr "Tillgångar"
 
+#: ..\..\../source/views/Browse/Default.php:1
+msgid "Public Channels"
+msgstr ""
+
 #: ..\..\../source/views/Chat/Default.php:43
 msgid "Users Online"
 msgstr "Användare online"
+
+#: ..\..\../source/views/Chat/Default.php:84
+msgid "Submit"
+msgstr ""
 
 #: ..\..\../source/views/Chat/Default.php:86
 msgid "Type your message here..."
@@ -76,4 +93,16 @@ msgstr "Skriv ditt meddelande här..."
 #: ..\..\../source/views/Chat/Default.php:89
 msgid "Markdown Help"
 msgstr "Format Info"
+
+#: ..\..\../source/views/Dashboard/Default.php:6
+msgid "Private"
+msgstr ""
+
+#: ..\..\../source/views/Dashboard/Default.php:9
+msgid "Your Channels"
+msgstr ""
+
+#: ..\..\../source/views/Dashboard/Default.php:20
+msgid "Change your username"
+msgstr ""
 

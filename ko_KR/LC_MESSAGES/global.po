@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 08:02+1000\n"
-"PO-Revision-Date: 2011-08-27 16:31+1000\n"
+"POT-Creation-Date: 2011-08-27 19:37+1000\n"
+"PO-Revision-Date: 2011-08-27 19:37+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -16,23 +16,32 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
 
+#: ..\..\../source/views/Footer.php:1
+msgid "This site makes extensive use of JavaScript."
+msgstr ""
+
+#: ..\..\../source/views/Footer.php:1
+#, php-format
+msgid "Please %senable JavaScript%s in your browser."
+msgstr ""
+
 #: ..\..\../source/views/Footer.php:6
 msgid "Change Language"
 msgstr "언어 변경"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "Feedback"
 msgstr "로그인"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "Status"
 msgstr "지위"
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "API"
 msgstr ""
 
-#: ..\..\../source/views/Footer.php:14
+#: ..\..\../source/views/Footer.php:12
 msgid "Mobile"
 msgstr ""
 
@@ -65,8 +74,16 @@ msgstr "회사 소개"
 msgid "Assets"
 msgstr "EE~~!"
 
+#: ..\..\../source/views/Browse/Default.php:1
+msgid "Public Channels"
+msgstr ""
+
 #: ..\..\../source/views/Chat/Default.php:43
 msgid "Users Online"
+msgstr ""
+
+#: ..\..\../source/views/Chat/Default.php:84
+msgid "Submit"
 msgstr ""
 
 #: ..\..\../source/views/Chat/Default.php:86
@@ -75,5 +92,17 @@ msgstr ""
 
 #: ..\..\../source/views/Chat/Default.php:89
 msgid "Markdown Help"
+msgstr ""
+
+#: ..\..\../source/views/Dashboard/Default.php:6
+msgid "Private"
+msgstr ""
+
+#: ..\..\../source/views/Dashboard/Default.php:9
+msgid "Your Channels"
+msgstr ""
+
+#: ..\..\../source/views/Dashboard/Default.php:20
+msgid "Change your username"
 msgstr ""
 
