@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-08-27 19:37+1000\n"
-"PO-Revision-Date: 2011-08-27 19:37+1000\n"
-"Last-Translator: Paul <paul@zomble.com.au>\n"
+"PO-Revision-Date: 2011-08-27 11:59+0100\n"
+"Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,12 +18,12 @@ msgstr ""
 
 #: ..\..\../source/views/Footer.php:1
 msgid "This site makes extensive use of JavaScript."
-msgstr ""
+msgstr "Denna webbplats använder sig utav JavaScript."
 
 #: ..\..\../source/views/Footer.php:1
 #, php-format
 msgid "Please %senable JavaScript%s in your browser."
-msgstr ""
+msgstr "Var snäll och %saktivera JavaScript%s i din webbläsare."
 
 #: ..\..\../source/views/Footer.php:6
 msgid "Change Language"
@@ -76,7 +76,7 @@ msgstr "Tillgångar"
 
 #: ..\..\../source/views/Browse/Default.php:1
 msgid "Public Channels"
-msgstr ""
+msgstr "Offentliga kanaler"
 
 #: ..\..\../source/views/Chat/Default.php:43
 msgid "Users Online"
@@ -84,7 +84,7 @@ msgstr "Användare online"
 
 #: ..\..\../source/views/Chat/Default.php:84
 msgid "Submit"
-msgstr ""
+msgstr "Sänd"
 
 #: ..\..\../source/views/Chat/Default.php:86
 msgid "Type your message here..."
@@ -96,13 +96,13 @@ msgstr "Format Info"
 
 #: ..\..\../source/views/Dashboard/Default.php:6
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: ..\..\../source/views/Dashboard/Default.php:9
 msgid "Your Channels"
-msgstr ""
+msgstr "Dina kanaler"
 
 #: ..\..\../source/views/Dashboard/Default.php:20
 msgid "Change your username"
-msgstr ""
+msgstr "Byt ditt användarnamn"
 
