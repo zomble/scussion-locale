@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 19:37+1000\n"
-"PO-Revision-Date: 2011-08-27 19:37+1000\n"
+"POT-Creation-Date: 2011-09-14 22:58+1000\n"
+"PO-Revision-Date: 2011-09-14 22:58+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -16,93 +16,101 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
 
-#: ..\..\../source/views/Footer.php:1
-msgid "This site makes extensive use of JavaScript."
-msgstr ""
-
-#: ..\..\../source/views/Footer.php:1
-#, php-format
-msgid "Please %senable JavaScript%s in your browser."
-msgstr ""
-
-#: ..\..\../source/views/Footer.php:6
-msgid "Change Language"
-msgstr "언어 변경"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "Feedback"
-msgstr "로그인"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "Status"
-msgstr "지위"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "API"
-msgstr ""
-
-#: ..\..\../source/views/Footer.php:12
-msgid "Mobile"
-msgstr ""
-
-#: ..\..\../source/views/Header.php:11
+#: ..\..\../source/controllers/Xss.php:71
 #, php-format
 msgid "Hi, %s"
 msgstr ""
 
-#: ..\..\../source/views/Header.php:16
+#: ..\..\../source/controllers/Xss.php:76
 msgid "Dashboard"
 msgstr "계기판"
 
-#: ..\..\../source/views/Header.php:17
+#: ..\..\../source/controllers/Xss.php:77
 msgid "Logout"
 msgstr "GAYSEX"
 
-#: ..\..\../source/views/Header.php:19
+#: ..\..\../source/controllers/Xss.php:79
 msgid "Sign In"
 msgstr "로그인"
 
-#: ..\..\../source/views/Header.php:23
+#: ..\..\../source/controllers/Xss.php:84
 msgid "Browse"
 msgstr "찾아보기"
 
-#: ..\..\../source/views/Header.php:24
+#: ..\..\../source/controllers/Xss.php:85
 msgid "About"
 msgstr "회사 소개"
 
-#: ..\..\../source/views/Header.php:25
+#: ..\..\../source/controllers/Xss.php:86
 msgid "Assets"
 msgstr "EE~~!"
 
-#: ..\..\../source/views/Browse/Default.php:1
-msgid "Public Channels"
-msgstr ""
-
-#: ..\..\../source/views/Chat/Default.php:43
+#: ..\..\../source/controllers/Xss.php:108
 msgid "Users Online"
 msgstr ""
 
-#: ..\..\../source/views/Chat/Default.php:84
+#: ..\..\../source/views/Main/Footer.php:4
+msgid "This site makes extensive use of JavaScript."
+msgstr ""
+
+#: ..\..\../source/views/Main/Footer.php:5
+#, php-format
+msgid "Please %senable JavaScript%s in your browser."
+msgstr ""
+
+#: ..\..\../source/views/Main/Footer.php:13
+msgid "Change Language"
+msgstr "언어 변경"
+
+#: ..\..\../source/views/Main/Footer.php:20
+msgid "Feedback"
+msgstr "로그인"
+
+#: ..\..\../source/views/Main/Footer.php:21
+msgid "Status"
+msgstr "지위"
+
+#: ..\..\../source/views/Main/Footer.php:22
+msgid "API"
+msgstr ""
+
+#: ..\..\../source/views/Main/Footer.php:23
+msgid "Mobile"
+msgstr ""
+
+#: ..\..\../source/views/Main/Browse/Default.php:1
+msgid "Public Channels"
+msgstr ""
+
+#: ..\..\../source/views/Main/Chat/Default.php:84
 msgid "Submit"
 msgstr ""
 
-#: ..\..\../source/views/Chat/Default.php:86
+#: ..\..\../source/views/Main/Chat/Default.php:86
 msgid "Type your message here..."
 msgstr ""
 
-#: ..\..\../source/views/Chat/Default.php:89
+#: ..\..\../source/views/Main/Chat/Default.php:89
 msgid "Markdown Help"
 msgstr ""
 
-#: ..\..\../source/views/Dashboard/Default.php:6
+#: ..\..\../source/views/Main/Dashboard/Default.php:6
 msgid "Private"
 msgstr ""
 
-#: ..\..\../source/views/Dashboard/Default.php:9
+#: ..\..\../source/views/Main/Dashboard/Default.php:9
 msgid "Your Channels"
 msgstr ""
 
-#: ..\..\../source/views/Dashboard/Default.php:20
+#: ..\..\../source/views/Main/Dashboard/Default.php:20
 msgid "Change your username"
+msgstr ""
+
+#: ..\..\../source/views/Notification/Notifications/Default.php:1
+msgid "View All"
+msgstr ""
+
+#: ..\..\../source/views/Notification/Notifications/Default.php:2
+msgid "Notifications"
 msgstr ""
 

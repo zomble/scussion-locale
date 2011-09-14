@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 19:37+1000\n"
-"PO-Revision-Date: 2011-08-27 11:59+0100\n"
-"Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
+"POT-Creation-Date: 2011-09-14 22:58+1000\n"
+"PO-Revision-Date: 2011-09-14 22:58+1000\n"
+"Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,93 +16,101 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
 
-#: ..\..\../source/views/Footer.php:1
-msgid "This site makes extensive use of JavaScript."
-msgstr "Denna webbplats använder sig utav JavaScript."
-
-#: ..\..\../source/views/Footer.php:1
-#, php-format
-msgid "Please %senable JavaScript%s in your browser."
-msgstr "Var snäll och %saktivera JavaScript%s i din webbläsare."
-
-#: ..\..\../source/views/Footer.php:6
-msgid "Change Language"
-msgstr "Byt språk"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "Feedback"
-msgstr "Feedback"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "Status"
-msgstr "Status"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "API"
-msgstr "API"
-
-#: ..\..\../source/views/Footer.php:12
-msgid "Mobile"
-msgstr "Mobil"
-
-#: ..\..\../source/views/Header.php:11
+#: ..\..\../source/controllers/Xss.php:71
 #, php-format
 msgid "Hi, %s"
 msgstr "Hej, %s"
 
-#: ..\..\../source/views/Header.php:16
+#: ..\..\../source/controllers/Xss.php:76
 msgid "Dashboard"
 msgstr "Kontrollpanel"
 
-#: ..\..\../source/views/Header.php:17
+#: ..\..\../source/controllers/Xss.php:77
 msgid "Logout"
 msgstr "Logga ut"
 
-#: ..\..\../source/views/Header.php:19
+#: ..\..\../source/controllers/Xss.php:79
 msgid "Sign In"
 msgstr "Logga in"
 
-#: ..\..\../source/views/Header.php:23
+#: ..\..\../source/controllers/Xss.php:84
 msgid "Browse"
 msgstr "Bläddra"
 
-#: ..\..\../source/views/Header.php:24
+#: ..\..\../source/controllers/Xss.php:85
 msgid "About"
 msgstr "Om oss"
 
-#: ..\..\../source/views/Header.php:25
+#: ..\..\../source/controllers/Xss.php:86
 msgid "Assets"
 msgstr "Tillgångar"
 
-#: ..\..\../source/views/Browse/Default.php:1
-msgid "Public Channels"
-msgstr "Offentliga kanaler"
-
-#: ..\..\../source/views/Chat/Default.php:43
+#: ..\..\../source/controllers/Xss.php:108
 msgid "Users Online"
 msgstr "Användare online"
 
-#: ..\..\../source/views/Chat/Default.php:84
+#: ..\..\../source/views/Main/Footer.php:4
+msgid "This site makes extensive use of JavaScript."
+msgstr "Denna webbplats använder sig utav JavaScript."
+
+#: ..\..\../source/views/Main/Footer.php:5
+#, php-format
+msgid "Please %senable JavaScript%s in your browser."
+msgstr "Var snäll och %saktivera JavaScript%s i din webbläsare."
+
+#: ..\..\../source/views/Main/Footer.php:13
+msgid "Change Language"
+msgstr "Byt språk"
+
+#: ..\..\../source/views/Main/Footer.php:20
+msgid "Feedback"
+msgstr "Feedback"
+
+#: ..\..\../source/views/Main/Footer.php:21
+msgid "Status"
+msgstr "Status"
+
+#: ..\..\../source/views/Main/Footer.php:22
+msgid "API"
+msgstr "API"
+
+#: ..\..\../source/views/Main/Footer.php:23
+msgid "Mobile"
+msgstr "Mobil"
+
+#: ..\..\../source/views/Main/Browse/Default.php:1
+msgid "Public Channels"
+msgstr "Offentliga kanaler"
+
+#: ..\..\../source/views/Main/Chat/Default.php:84
 msgid "Submit"
 msgstr "Sänd"
 
-#: ..\..\../source/views/Chat/Default.php:86
+#: ..\..\../source/views/Main/Chat/Default.php:86
 msgid "Type your message here..."
 msgstr "Skriv ditt meddelande här..."
 
-#: ..\..\../source/views/Chat/Default.php:89
+#: ..\..\../source/views/Main/Chat/Default.php:89
 msgid "Markdown Help"
 msgstr "Format Info"
 
-#: ..\..\../source/views/Dashboard/Default.php:6
+#: ..\..\../source/views/Main/Dashboard/Default.php:6
 msgid "Private"
 msgstr "Privat"
 
-#: ..\..\../source/views/Dashboard/Default.php:9
+#: ..\..\../source/views/Main/Dashboard/Default.php:9
 msgid "Your Channels"
 msgstr "Dina kanaler"
 
-#: ..\..\../source/views/Dashboard/Default.php:20
+#: ..\..\../source/views/Main/Dashboard/Default.php:20
 msgid "Change your username"
 msgstr "Byt ditt användarnamn"
+
+#: ..\..\../source/views/Notification/Notifications/Default.php:1
+msgid "View All"
+msgstr ""
+
+#: ..\..\../source/views/Notification/Notifications/Default.php:2
+msgid "Notifications"
+msgstr ""
 
