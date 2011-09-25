@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-14 22:58+1000\n"
-"PO-Revision-Date: 2011-09-14 22:58+1000\n"
+"POT-Creation-Date: 2011-09-25 12:10+1000\n"
+"PO-Revision-Date: 2011-09-25 12:10+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -49,6 +49,11 @@ msgstr ""
 msgid "Users Online"
 msgstr ""
 
+#: ..\..\../source/models/Notification.php:134
+#, php-format
+msgid "%s mentioned you in %s."
+msgstr ""
+
 #: ..\..\../source/views/Main/Footer.php:4
 msgid "This site makes extensive use of JavaScript."
 msgstr ""
@@ -58,24 +63,53 @@ msgstr ""
 msgid "Please %senable JavaScript%s in your browser."
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:13
+#: ..\..\../source/views/Main/Footer.php:14
 msgid "Change Language"
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:20
+#: ..\..\../source/views/Main/Footer.php:18
 msgid "Feedback"
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:21
+#: ..\..\../source/views/Main/Footer.php:19
 msgid "Status"
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:22
+#: ..\..\../source/views/Main/Footer.php:20
 msgid "API"
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:23
+#: ..\..\../source/views/Main/Footer.php:21
 msgid "Mobile"
+msgstr ""
+
+#: ..\..\../source/views/Main/Header.php:30
+msgid "Close"
+msgstr ""
+
+#: ..\..\../source/views/Main/Header.php:30
+msgid "Refresh"
+msgstr ""
+
+#: ..\..\../source/views/Main/Auth/Default.php:6
+msgid "Username"
+msgstr ""
+
+#: ..\..\../source/views/Main/Auth/Default.php:7
+#: ..\..\../source/views/Main/Auth/Default.php:11
+msgid "required"
+msgstr ""
+
+#: ..\..\../source/views/Main/Auth/Default.php:8
+msgid "Email Address"
+msgstr ""
+
+#: ..\..\../source/views/Main/Auth/Default.php:9
+msgid "user@example.com"
+msgstr "user@example.com.au"
+
+#: ..\..\../source/views/Main/Auth/Default.php:10
+msgid "Password"
 msgstr ""
 
 #: ..\..\../source/views/Main/Browse/Default.php:1
