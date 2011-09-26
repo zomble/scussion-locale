@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-25 12:10+1000\n"
-"PO-Revision-Date: 2011-09-25 12:10+1000\n"
+"POT-Creation-Date: 2011-09-26 23:07+1000\n"
+"PO-Revision-Date: 2011-09-26 23:07+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,55 @@ msgstr ""
 "X-Poedit-Country: KOREA, REPUBLIC OF\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
+
+#: ..\..\../source/controllers/Auth.php:33
+msgid "Invalid username and/or password."
+msgstr ""
+
+#: ..\..\../source/controllers/Auth.php:49
+#: ..\..\../source/controllers/Register.php:70
+msgid "Username"
+msgstr ""
+
+#: ..\..\../source/controllers/Auth.php:51
+#: ..\..\../source/controllers/Register.php:74
+msgid "Password"
+msgstr ""
+
+#: ..\..\../source/controllers/Auth.php:53
+#: ..\..\../source/controllers/Register.php:81
+msgid "Create Account"
+msgstr ""
+
+#: ..\..\../source/controllers/Auth.php:54
+#: ..\..\../source/controllers/Register.php:80
+#: ..\..\../source/controllers/Xss.php:79
+msgid "Sign In"
+msgstr "로그인"
+
+#: ..\..\../source/controllers/Register.php:30
+msgid "Sorry. That username is already taken."
+msgstr ""
+
+#: ..\..\../source/controllers/Register.php:46
+msgid "Sorry. That email address is already taken."
+msgstr ""
+
+#: ..\..\../source/controllers/Register.php:72
+msgid "Email Address"
+msgstr ""
+
+#: ..\..\../source/controllers/Register.php:75
+msgid "user@example.com"
+msgstr ""
+
+#: ..\..\../source/controllers/Register.php:77
+msgid "Confirm Password"
+msgstr ""
+
+#: ..\..\../source/controllers/Register.php:78
+msgid "confirm user@example.com"
+msgstr ""
 
 #: ..\..\../source/controllers/Xss.php:71
 #, php-format
@@ -28,10 +77,6 @@ msgstr "계기판"
 #: ..\..\../source/controllers/Xss.php:77
 msgid "Logout"
 msgstr "GAYSEX"
-
-#: ..\..\../source/controllers/Xss.php:79
-msgid "Sign In"
-msgstr "로그인"
 
 #: ..\..\../source/controllers/Xss.php:84
 msgid "Browse"
@@ -47,6 +92,27 @@ msgstr "EE~~!"
 
 #: ..\..\../source/controllers/Xss.php:108
 msgid "Users Online"
+msgstr ""
+
+#: ..\..\../source/lib/Form.php:26
+msgid "Submit"
+msgstr ""
+
+#: ..\..\../source/lib/Form.php:108
+msgid "required"
+msgstr ""
+
+#: ..\..\../source/lib/Form.php:179
+msgid "This field is required."
+msgstr ""
+
+#: ..\..\../source/lib/Form.php:188
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: ..\..\../source/lib/Form.php:197
+#, php-format
+msgid "This field does not match %s."
 msgstr ""
 
 #: ..\..\../source/models/Notification.php:134
@@ -91,33 +157,8 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: ..\..\../source/views/Main/Auth/Default.php:6
-msgid "Username"
-msgstr ""
-
-#: ..\..\../source/views/Main/Auth/Default.php:7
-#: ..\..\../source/views/Main/Auth/Default.php:11
-msgid "required"
-msgstr ""
-
-#: ..\..\../source/views/Main/Auth/Default.php:8
-msgid "Email Address"
-msgstr ""
-
-#: ..\..\../source/views/Main/Auth/Default.php:9
-msgid "user@example.com"
-msgstr ""
-
-#: ..\..\../source/views/Main/Auth/Default.php:10
-msgid "Password"
-msgstr ""
-
 #: ..\..\../source/views/Main/Browse/Default.php:1
 msgid "Public Channels"
-msgstr ""
-
-#: ..\..\../source/views/Main/Chat/Default.php:84
-msgid "Submit"
 msgstr ""
 
 #: ..\..\../source/views/Main/Chat/Default.php:86
@@ -138,6 +179,10 @@ msgstr ""
 
 #: ..\..\../source/views/Main/Dashboard/Default.php:20
 msgid "Change your username"
+msgstr ""
+
+#: ..\..\../source/views/Main/Register/Default.php:3
+msgid "Create an Account"
 msgstr ""
 
 #: ..\..\../source/views/Notification/Notifications/Default.php:1
