@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-26 23:07+1000\n"
-"PO-Revision-Date: 2011-09-26 23:07+1000\n"
+"POT-Creation-Date: 2011-09-29 20:10+1000\n"
+"PO-Revision-Date: 2011-09-29 20:13+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -14,6 +14,7 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
 
 #: ..\..\../source/controllers/Auth.php:33
@@ -38,7 +39,7 @@ msgstr ""
 
 #: ..\..\../source/controllers/Auth.php:54
 #: ..\..\../source/controllers/Register.php:80
-#: ..\..\../source/controllers/Xss.php:79
+#: ..\..\../source/controllers/Xss.php:101
 msgid "Sign In"
 msgstr "Logga in"
 
@@ -66,32 +67,32 @@ msgstr ""
 msgid "confirm user@example.com"
 msgstr ""
 
-#: ..\..\../source/controllers/Xss.php:71
+#: ..\..\../source/controllers/Xss.php:93
 #, php-format
 msgid "Hi, %s"
 msgstr "Hej, %s"
 
-#: ..\..\../source/controllers/Xss.php:76
+#: ..\..\../source/controllers/Xss.php:98
 msgid "Dashboard"
 msgstr "Kontrollpanel"
 
-#: ..\..\../source/controllers/Xss.php:77
+#: ..\..\../source/controllers/Xss.php:99
 msgid "Logout"
 msgstr "Logga ut"
 
-#: ..\..\../source/controllers/Xss.php:84
+#: ..\..\../source/controllers/Xss.php:106
 msgid "Browse"
 msgstr "Bläddra"
 
-#: ..\..\../source/controllers/Xss.php:85
+#: ..\..\../source/controllers/Xss.php:107
 msgid "About"
 msgstr "Om oss"
 
-#: ..\..\../source/controllers/Xss.php:86
+#: ..\..\../source/controllers/Xss.php:108
 msgid "Assets"
 msgstr "Tillgångar"
 
-#: ..\..\../source/controllers/Xss.php:108
+#: ..\..\../source/controllers/Xss.php:130
 msgid "Users Online"
 msgstr "Användare online"
 
@@ -162,11 +163,18 @@ msgstr ""
 msgid "Public Channels"
 msgstr "Offentliga kanaler"
 
-#: ..\..\../source/views/Main/Chat/Default.php:86
+#: ..\..\../source/views/Main/Browse/Default.php:7
+#, fuzzy
+msgid "User Online"
+msgid_plural "Users Online"
+msgstr[0] "Användare online"
+msgstr[1] "Användare online"
+
+#: ..\..\../source/views/Main/Chat/Default.php:76
 msgid "Type your message here..."
 msgstr "Skriv ditt meddelande här..."
 
-#: ..\..\../source/views/Main/Chat/Default.php:89
+#: ..\..\../source/views/Main/Chat/Default.php:79
 msgid "Markdown Help"
 msgstr "Format Info"
 
@@ -192,5 +200,9 @@ msgstr ""
 
 #: ..\..\../source/views/Notification/Notifications/Default.php:2
 msgid "Notifications"
+msgstr ""
+
+#: ..\..\../source/views/Notification/Notifications/Default.php:24
+msgid "You currently have no notifications."
 msgstr ""
 
