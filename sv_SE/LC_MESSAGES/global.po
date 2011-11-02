@@ -2,46 +2,88 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-29 20:10+1000\n"
-"PO-Revision-Date: 2011-10-17 13:04+0100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 "Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
-"Language-Team:  <locale@zomble.com.au>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-Language: Swedish\n"
-"X-Poedit-Country: SWEDEN\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-SearchPath-0: ..\\..\\..\n"
 
 #: ..\..\../source/controllers/Auth.php:33
 msgid "Invalid username and/or password."
 msgstr "Fel anv√§ndarnamn och/eller l√∂senord."
 
 #: ..\..\../source/controllers/Auth.php:49
-#: ..\..\../source/controllers/Register.php:70
-#, fuzzy
+#: ..\..\../source/controllers/Register.php:74
+#: ..\..\../source/controllers/Settings.php:39
 msgid "Username"
-msgstr "Anv√§ndare online"
+msgstr "Anv‰ndarnamn"
 
 #: ..\..\../source/controllers/Auth.php:51
-#: ..\..\../source/controllers/Register.php:74
+#: ..\..\../source/controllers/Register.php:78
 msgid "Password"
 msgstr "L√∂senord"
 
 #: ..\..\../source/controllers/Auth.php:53
-#: ..\..\../source/controllers/Register.php:81
+#: ..\..\../source/controllers/Register.php:84
+msgid "or"
+msgstr "eller"
+
+#: ..\..\../source/controllers/Auth.php:53
+#: ..\..\../source/controllers/Register.php:85
 msgid "Create Account"
 msgstr "Skapa Konto"
 
 #: ..\..\../source/controllers/Auth.php:54
-#: ..\..\../source/controllers/Register.php:80
-#: ..\..\../source/controllers/Xss.php:101
+#: ..\..\../source/controllers/Register.php:84
 msgid "Sign In"
 msgstr "Logga in"
+
+#: ..\..\../source/controllers/Dashboard.php:32
+msgid "Resend Verification Email"
+msgstr "Skicka ‰nnu ett verifikations mail"
+
+#: ..\..\../source/controllers/Dashboard.php:47
+msgid "Yes"
+msgstr "Ja"
+
+#: ..\..\../source/controllers/Dashboard.php:48
+msgid "No"
+msgstr "Nej"
+
+#: ..\..\../source/controllers/Dashboard.php:61
+msgid "Channel public key is empty. You have entered a bad name."
+msgstr "Kanalens publika nyckel ‰r tom. Du har skrivit in ett dÂligt namn."
+
+#: ..\..\../source/controllers/Dashboard.php:67
+msgid "It appears that channel already exists. Choose a different name."
+msgstr "Det verkar som att den kanalen redan finns. V‰lj ett annat namn."
+
+#: ..\..\../source/controllers/Dashboard.php:103
+msgid "Title / Name"
+msgstr "Titel / Namn"
+
+#: ..\..\../source/controllers/Dashboard.php:104
+msgid "Enter a name for your channel..."
+msgstr "Skriv in ett namn fˆr din kanal..."
+
+#: ..\..\../source/controllers/Dashboard.php:106
+msgid "Description"
+msgstr "Beskrivning"
+
+#: ..\..\../source/controllers/Dashboard.php:107
+#: ..\..\../source/controllers/Dashboard.php:110
+msgid "Enter a description of your channel..."
+msgstr "Skriv in en kort beskrivning om din kanal..."
+
+#: ..\..\../source/controllers/Dashboard.php:109
+msgid "Private"
+msgstr "Privat"
+
+#: ..\..\../source/controllers/Dashboard.php:112
+msgid "Create Channel"
+msgstr "Skapa kanal"
 
 #: ..\..\../source/controllers/Register.php:30
 msgid "Sorry. That username is already taken."
@@ -51,68 +93,93 @@ msgstr "Sorry. Det anv√§ndernamnet √§r redan upptaget."
 msgid "Sorry. That email address is already taken."
 msgstr "Sorry. Den email adressen √§r redan upptagen."
 
-#: ..\..\../source/controllers/Register.php:72
+#: ..\..\../source/controllers/Register.php:76
+#: ..\..\../source/controllers/Settings.php:41
 msgid "Email Address"
 msgstr "Email Adress"
 
-#: ..\..\../source/controllers/Register.php:75
+#: ..\..\../source/controllers/Register.php:79
 msgid "user@example.com"
 msgstr "anv√§ndare@exempel.se"
 
-#: ..\..\../source/controllers/Register.php:77
+#: ..\..\../source/controllers/Register.php:81
 msgid "Confirm Password"
 msgstr "Bekr√§fta L√∂senord"
 
-#: ..\..\../source/controllers/Register.php:78
+#: ..\..\../source/controllers/Register.php:82
 msgid "confirm user@example.com"
 msgstr "bekr√§fta anv√§ndare@exempel.se"
 
-#: ..\..\../source/controllers/Xss.php:93
+#: ..\..\../source/controllers/Settings.php:40
+msgid "Real Name"
+msgstr "Ditt riktiga namn"
+
+#: ..\..\../source/controllers/Settings.php:43
+msgid "Update Account Settings"
+msgstr "Uppdatera konto inst‰llningar"
+
+#: ..\..\../source/controllers/Settings.php:63
+msgid "Current Password"
+msgstr "Nuvarande lˆsenord"
+
+#: ..\..\../source/controllers/Settings.php:65
+msgid "New Password"
+msgstr "Nytt lˆsenord"
+
+#: ..\..\../source/controllers/Settings.php:67
+msgid "Confirm New Password"
+msgstr "Bekr‰fta lˆsenord"
+
+#: ..\..\../source/controllers/Settings.php:69
+msgid "Change Password"
+msgstr "Byt lˆsenord"
+
+#: ..\..\../source/controllers/Xss.php:103
 #, php-format
 msgid "Hi, %s"
 msgstr "Hej, %s"
 
-#: ..\..\../source/controllers/Xss.php:98
+#: ..\..\../source/controllers/Xss.php:108
 msgid "Dashboard"
 msgstr "Kontrollpanel"
 
-#: ..\..\../source/controllers/Xss.php:99
+#: ..\..\../source/controllers/Xss.php:109
 msgid "Logout"
 msgstr "Logga ut"
 
-#: ..\..\../source/controllers/Xss.php:106
+#: ..\..\../source/controllers/Xss.php:116
 msgid "Browse"
 msgstr "Bl√§ddra"
 
-#: ..\..\../source/controllers/Xss.php:107
+#: ..\..\../source/controllers/Xss.php:117
 msgid "About"
 msgstr "Om oss"
 
-#: ..\..\../source/controllers/Xss.php:108
+#: ..\..\../source/controllers/Xss.php:118
 msgid "Assets"
 msgstr "Tillg√•ngar"
 
-#: ..\..\../source/controllers/Xss.php:130
+#: ..\..\../source/controllers/Xss.php:140
 msgid "Users Online"
 msgstr "Anv√§ndare online"
 
-#: ..\..\../source/lib/Form.php:26
+#: ..\..\../source/lib/Form.php:28
 msgid "Submit"
 msgstr "S√§nd"
 
-#: ..\..\../source/lib/Form.php:108
+#: ..\..\../source/lib/Form.php:113
 msgid "required"
 msgstr "obligatoriskt"
 
-#: ..\..\../source/lib/Form.php:179
+#: ..\..\../source/lib/Form.php:206
 msgid "This field is required."
 msgstr "Detta f√§ltet √§r obligatoriskt. "
 
-#: ..\..\../source/lib/Form.php:188
+#: ..\..\../source/lib/Form.php:215
 msgid "Please provide a valid email address."
 msgstr "Var sn√§ll och ange en korrekt email adress"
 
-#: ..\..\../source/lib/Form.php:197
+#: ..\..\../source/lib/Form.php:224
 #, php-format
 msgid "This field does not match %s."
 msgstr "Detta f√§ltet matchar inte %s."
@@ -122,14 +189,36 @@ msgstr "Detta f√§ltet matchar inte %s."
 msgid "%s mentioned you in %s."
 msgstr "%s n√§mnde dig i %s."
 
+#: ..\..\../source/models/Notification.php:138
+#, php-format
+msgid "%s has requested permission access to %s."
+msgstr "%s har angett om tillstÂnd att fÂ tillÂtelse till %s."
+
+#: ..\..\../source/views/Embed/Footer.php:4
 #: ..\..\../source/views/Main/Footer.php:4
 msgid "This site makes extensive use of JavaScript."
 msgstr "Denna webbplats anv√§nder sig utav JavaScript."
 
+#: ..\..\../source/views/Embed/Footer.php:5
 #: ..\..\../source/views/Main/Footer.php:5
 #, php-format
 msgid "Please %senable JavaScript%s in your browser."
 msgstr "Var sn√§ll och %saktivera JavaScript%s i din webbl√§sare."
+
+#: ..\..\../source/views/Embed/Header.php:17
+#: ..\..\../source/views/Main/Header.php:16
+msgid "Settings"
+msgstr "Inst‰llningar"
+
+#: ..\..\../source/views/Embed/Header.php:31
+#: ..\..\../source/views/Main/Header.php:30
+msgid "Close"
+msgstr "St‰ng"
+
+#: ..\..\../source/views/Embed/Header.php:31
+#: ..\..\../source/views/Main/Header.php:30
+msgid "Refresh"
+msgstr "Ladda om"
 
 #: ..\..\../source/views/Main/Footer.php:14
 msgid "Change Language"
@@ -153,46 +242,69 @@ msgstr "Mobil"
 
 #: ..\..\../source/views/Main/Header.php:30
 msgid "Close"
-msgstr "St√§ng"
+msgstr "St‰ng"
 
 #: ..\..\../source/views/Main/Header.php:30
 msgid "Refresh"
 msgstr "Uppdatera"
 
+#: ..\..\../source/views/Main/Header.php:11
+msgid "Loading"
+msgstr "Laddar"
+
+#: ..\..\../source/views/Main/Main.php:70
+msgid "Disconected"
+msgstr "Utloggad"
+
+#: ..\..\../source/views/Main/Main.php:73
+msgid "Sorry your message is over the length limit"
+msgstr "Sorry, din meddelande ‰r ˆver antalet tillÂtna tecken."
+
 #: ..\..\../source/views/Main/Browse/Default.php:1
 msgid "Public Channels"
 msgstr "Offentliga kanaler"
 
-#: ..\..\../source/views/Main/Browse/Default.php:7
-#, fuzzy
-msgid "User Online"
-msgid_plural "Users Online"
-msgstr[0] "Anv√§ndare online"
-msgstr[1] "Anv√§ndare online"
-
-#: ..\..\../source/views/Main/Chat/Default.php:76
+#: ..\..\../source/views/Main/Chat/Default.php:113
 msgid "Type your message here..."
 msgstr "Skriv ditt meddelande h√§r..."
 
-#: ..\..\../source/views/Main/Chat/Default.php:79
-msgid "Markdown Help"
-msgstr "Format Info"
+#: ..\..\../source/views/Main/Chat/Default.php:116
+msgid "Markdown Help & tips"
+msgstr "Format Tips & Trix"
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:6
-msgid "Private"
-msgstr "Privat"
+#: ..\..\../source/views/Main/Dashboard/Default.php:12
+#, php-format
+msgid "Your email address %s has yet to be validated."
+msgstr "Din email adress %s har inte blivit bekr‰ftad ‰n."
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:9
+#: ..\..\../source/views/Main/Dashboard/Default.php:13
+msgid "You need to validate it to own a channel."
+msgstr "Du mÂste bekr‰fta den fˆr att ‰ga en kanal."
+
+#: ..\..\../source/views/Main/Dashboard/Default.php:17
+msgid "Thank you. Verification email has been sent."
+msgstr "Tack. Ett verifikation mail har nu skickats."
+
+#: ..\..\../source/views/Main/Dashboard/Default.php:25
+#, php-format
+msgid "You already have %s or more channels.<br/><b>You cannot create anymore.</b>"
+msgstr "Du har redan %s eller mer kanaler.<br/><b>Du kan inte skapa nÂgra fler.</b>"
+
+#: ..\..\../source/views/Main/Dashboard/Default.php:35
 msgid "Your Channels"
 msgstr "Dina kanaler"
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:20
-msgid "Change your username"
-msgstr "Byt ditt anv√§ndarnamn"
+#: ..\..\../source/views/Main/Dashboard/Default.php:50
+msgid "You current do not own any channels"
+msgstr "Fˆr tillf‰llet ‰ger du inga kanaler."
 
 #: ..\..\../source/views/Main/Register/Default.php:3
 msgid "Create an Account"
 msgstr "Registrera"
+
+#: ..\..\../source/views/Main/Settings/Default.php:4
+msgid "Your Settings"
+msgstr "Dina inst‰llningar"
 
 #: ..\..\../source/views/Notification/Notifications/Default.php:1
 msgid "View All"
@@ -202,7 +314,16 @@ msgstr "Visa Alla"
 msgid "Notifications"
 msgstr "Meddelanden"
 
-#: ..\..\../source/views/Notification/Notifications/Default.php:24
+#: ..\..\../source/views/Notification/Notifications/Default.php:49
 msgid "You currently have no notifications."
 msgstr "Du har inga nya meddelanden."
 
+#, fuzzy
+#~ msgid "User Online"
+
+#~ msgid_plural "Users Online"
+#~ msgstr[0] "Anv√§ndare online"
+#~ msgstr[1] "Anv√§ndare online"
+
+#~ msgid "Change your username"
+#~ msgstr "Byt ditt anv√§ndarnamn"
