@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-29 20:13+1000\n"
-"PO-Revision-Date: 2011-09-29 20:13+1000\n"
+"POT-Creation-Date: 2011-10-27 21:57+1000\n"
+"PO-Revision-Date: 2011-10-27 21:57+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -22,25 +22,75 @@ msgid "Invalid username and/or password."
 msgstr ""
 
 #: ..\..\../source/controllers/Auth.php:49
-#: ..\..\../source/controllers/Register.php:70
+#: ..\..\../source/controllers/Register.php:74
+#: ..\..\../source/controllers/Settings.php:39
 msgid "Username"
 msgstr ""
 
 #: ..\..\../source/controllers/Auth.php:51
-#: ..\..\../source/controllers/Register.php:74
+#: ..\..\../source/controllers/Register.php:78
 msgid "Password"
 msgstr ""
 
 #: ..\..\../source/controllers/Auth.php:53
-#: ..\..\../source/controllers/Register.php:81
+#: ..\..\../source/controllers/Register.php:84
+msgid "or"
+msgstr ""
+
+#: ..\..\../source/controllers/Auth.php:53
+#: ..\..\../source/controllers/Register.php:85
 msgid "Create Account"
 msgstr ""
 
 #: ..\..\../source/controllers/Auth.php:54
-#: ..\..\../source/controllers/Register.php:80
-#: ..\..\../source/controllers/Xss.php:101
+#: ..\..\../source/controllers/Register.php:84
 msgid "Sign In"
 msgstr "로그인"
+
+#: ..\..\../source/controllers/Dashboard.php:32
+msgid "Resend Verification Email"
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:47
+msgid "Yes"
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:48
+msgid "No"
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:61
+msgid "Channel public key is empty. You have entered a bad name."
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:67
+msgid "It appears that channel already exists. Choose a different name."
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:103
+msgid "Title / Name"
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:104
+msgid "Enter a name for your channel..."
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:106
+msgid "Description"
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:107
+#: ..\..\../source/controllers/Dashboard.php:110
+msgid "Enter a description of your channel..."
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:109
+msgid "Private"
+msgstr ""
+
+#: ..\..\../source/controllers/Dashboard.php:112
+msgid "Create Channel"
+msgstr ""
 
 #: ..\..\../source/controllers/Register.php:30
 msgid "Sorry. That username is already taken."
@@ -50,68 +100,93 @@ msgstr ""
 msgid "Sorry. That email address is already taken."
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:72
+#: ..\..\../source/controllers/Register.php:76
+#: ..\..\../source/controllers/Settings.php:41
 msgid "Email Address"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:75
+#: ..\..\../source/controllers/Register.php:79
 msgid "user@example.com"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:77
+#: ..\..\../source/controllers/Register.php:81
 msgid "Confirm Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:78
+#: ..\..\../source/controllers/Register.php:82
 msgid "confirm user@example.com"
 msgstr ""
 
-#: ..\..\../source/controllers/Xss.php:93
+#: ..\..\../source/controllers/Settings.php:40
+msgid "Real Name"
+msgstr ""
+
+#: ..\..\../source/controllers/Settings.php:43
+msgid "Update Account Settings"
+msgstr ""
+
+#: ..\..\../source/controllers/Settings.php:63
+msgid "Current Password"
+msgstr ""
+
+#: ..\..\../source/controllers/Settings.php:65
+msgid "New Password"
+msgstr ""
+
+#: ..\..\../source/controllers/Settings.php:67
+msgid "Confirm New Password"
+msgstr ""
+
+#: ..\..\../source/controllers/Settings.php:69
+msgid "Change Password"
+msgstr ""
+
+#: ..\..\../source/controllers/Xss.php:103
 #, php-format
 msgid "Hi, %s"
 msgstr ""
 
-#: ..\..\../source/controllers/Xss.php:98
+#: ..\..\../source/controllers/Xss.php:108
 msgid "Dashboard"
 msgstr "계기판"
 
-#: ..\..\../source/controllers/Xss.php:99
+#: ..\..\../source/controllers/Xss.php:109
 msgid "Logout"
 msgstr "GAYSEX"
 
-#: ..\..\../source/controllers/Xss.php:106
+#: ..\..\../source/controllers/Xss.php:116
 msgid "Browse"
 msgstr "찾아보기"
 
-#: ..\..\../source/controllers/Xss.php:107
+#: ..\..\../source/controllers/Xss.php:117
 msgid "About"
 msgstr "회사 소개"
 
-#: ..\..\../source/controllers/Xss.php:108
+#: ..\..\../source/controllers/Xss.php:118
 msgid "Assets"
 msgstr "EE~~!"
 
-#: ..\..\../source/controllers/Xss.php:130
+#: ..\..\../source/controllers/Xss.php:140
 msgid "Users Online"
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:26
+#: ..\..\../source/lib/Form.php:28
 msgid "Submit"
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:108
+#: ..\..\../source/lib/Form.php:113
 msgid "required"
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:179
+#: ..\..\../source/lib/Form.php:206
 msgid "This field is required."
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:188
+#: ..\..\../source/lib/Form.php:215
 msgid "Please provide a valid email address."
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:197
+#: ..\..\../source/lib/Form.php:224
 #, php-format
 msgid "This field does not match %s."
 msgstr ""
@@ -121,13 +196,35 @@ msgstr ""
 msgid "%s mentioned you in %s."
 msgstr ""
 
+#: ..\..\../source/models/Notification.php:138
+#, php-format
+msgid "%s has requested permission access to %s."
+msgstr ""
+
+#: ..\..\../source/views/Embed/Footer.php:4
 #: ..\..\../source/views/Main/Footer.php:4
 msgid "This site makes extensive use of JavaScript."
 msgstr ""
 
+#: ..\..\../source/views/Embed/Footer.php:5
 #: ..\..\../source/views/Main/Footer.php:5
 #, php-format
 msgid "Please %senable JavaScript%s in your browser."
+msgstr ""
+
+#: ..\..\../source/views/Embed/Header.php:17
+#: ..\..\../source/views/Main/Header.php:16
+msgid "Settings"
+msgstr ""
+
+#: ..\..\../source/views/Embed/Header.php:31
+#: ..\..\../source/views/Main/Header.php:30
+msgid "Close"
+msgstr ""
+
+#: ..\..\../source/views/Embed/Header.php:31
+#: ..\..\../source/views/Main/Header.php:30
+msgid "Refresh"
 msgstr ""
 
 #: ..\..\../source/views/Main/Footer.php:14
@@ -150,46 +247,62 @@ msgstr ""
 msgid "Mobile"
 msgstr ""
 
-#: ..\..\../source/views/Main/Header.php:30
-msgid "Close"
+#: ..\..\../source/views/Main/Header.php:11
+msgid "Loading"
 msgstr ""
 
-#: ..\..\../source/views/Main/Header.php:30
-msgid "Refresh"
+#: ..\..\../source/views/Main/Main.php:70
+msgid "Disconected"
+msgstr ""
+
+#: ..\..\../source/views/Main/Main.php:73
+msgid "Sorry your message is over the length limit"
 msgstr ""
 
 #: ..\..\../source/views/Main/Browse/Default.php:1
 msgid "Public Channels"
 msgstr ""
 
-#: ..\..\../source/views/Main/Browse/Default.php:7
-msgid "User Online"
-msgid_plural "Users Online"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ..\..\../source/views/Main/Chat/Default.php:76
+#: ..\..\../source/views/Main/Chat/Default.php:113
 msgid "Type your message here..."
 msgstr ""
 
-#: ..\..\../source/views/Main/Chat/Default.php:79
-msgid "Markdown Help"
+#: ..\..\../source/views/Main/Chat/Default.php:116
+msgid "Markdown Help & tips"
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:6
-msgid "Private"
+#: ..\..\../source/views/Main/Dashboard/Default.php:12
+#, php-format
+msgid "Your email address %s has yet to be validated."
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:9
+#: ..\..\../source/views/Main/Dashboard/Default.php:13
+msgid "You need to validate it to own a channel."
+msgstr ""
+
+#: ..\..\../source/views/Main/Dashboard/Default.php:17
+msgid "Thank you. Verification email has been sent."
+msgstr ""
+
+#: ..\..\../source/views/Main/Dashboard/Default.php:25
+#, php-format
+msgid "You already have %s or more channels.<br/><b>You cannot create anymore.</b>"
+msgstr ""
+
+#: ..\..\../source/views/Main/Dashboard/Default.php:35
 msgid "Your Channels"
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:20
-msgid "Change your username"
+#: ..\..\../source/views/Main/Dashboard/Default.php:50
+msgid "You current do not own any channels"
 msgstr ""
 
 #: ..\..\../source/views/Main/Register/Default.php:3
 msgid "Create an Account"
+msgstr ""
+
+#: ..\..\../source/views/Main/Settings/Default.php:4
+msgid "Your Settings"
 msgstr ""
 
 #: ..\..\../source/views/Notification/Notifications/Default.php:1
@@ -200,7 +313,7 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: ..\..\../source/views/Notification/Notifications/Default.php:24
+#: ..\..\../source/views/Notification/Notifications/Default.php:49
 msgid "You currently have no notifications."
 msgstr ""
 
