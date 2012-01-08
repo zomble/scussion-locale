@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-27 21:57+1000\n"
-"PO-Revision-Date: 2011-10-27 21:57+1000\n"
+"POT-Creation-Date: 2012-01-07 11:30+1000\n"
+"PO-Revision-Date: 2012-01-07 11:30+1000\n"
 "Last-Translator: Paul <paul@zomble.com.au>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -17,303 +17,456 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: ..\\..\\..\n"
 
-#: ..\..\../source/controllers/Auth.php:33
+#: ..\..\../source/controllers/auth.php:33
 msgid "Invalid username and/or password."
 msgstr ""
 
-#: ..\..\../source/controllers/Auth.php:49
-#: ..\..\../source/controllers/Register.php:74
-#: ..\..\../source/controllers/Settings.php:39
+#: ..\..\../source/controllers/auth.php:49
+#: ..\..\../source/controllers/register.php:74
 msgid "Username"
 msgstr ""
 
-#: ..\..\../source/controllers/Auth.php:51
-#: ..\..\../source/controllers/Register.php:78
+#: ..\..\../source/controllers/auth.php:51
+#: ..\..\../source/controllers/register.php:78
 msgid "Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Auth.php:53
-#: ..\..\../source/controllers/Register.php:84
+#: ..\..\../source/controllers/auth.php:53
+#: ..\..\../source/controllers/register.php:84
 msgid "or"
 msgstr ""
 
-#: ..\..\../source/controllers/Auth.php:53
-#: ..\..\../source/controllers/Register.php:85
+#: ..\..\../source/controllers/auth.php:53
+#: ..\..\../source/controllers/register.php:85
 msgid "Create Account"
 msgstr ""
 
-#: ..\..\../source/controllers/Auth.php:54
-#: ..\..\../source/controllers/Register.php:84
+#: ..\..\../source/controllers/auth.php:54
+#: ..\..\../source/controllers/register.php:84
 msgid "Sign In"
 msgstr "로그인"
 
-#: ..\..\../source/controllers/Dashboard.php:32
+#: ..\..\../source/controllers/dashboard.php:32
 msgid "Resend Verification Email"
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:47
+#: ..\..\../source/controllers/dashboard.php:47
 msgid "Yes"
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:48
+#: ..\..\../source/controllers/dashboard.php:48
 msgid "No"
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:61
+#: ..\..\../source/controllers/dashboard.php:61
 msgid "Channel public key is empty. You have entered a bad name."
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:67
+#: ..\..\../source/controllers/dashboard.php:67
 msgid "It appears that channel already exists. Choose a different name."
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:103
+#: ..\..\../source/controllers/dashboard.php:103
 msgid "Title / Name"
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:104
+#: ..\..\../source/controllers/dashboard.php:104
 msgid "Enter a name for your channel..."
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:106
+#: ..\..\../source/controllers/dashboard.php:106
 msgid "Description"
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:107
-#: ..\..\../source/controllers/Dashboard.php:110
+#: ..\..\../source/controllers/dashboard.php:107
+#: ..\..\../source/controllers/dashboard.php:110
 msgid "Enter a description of your channel..."
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:109
+#: ..\..\../source/controllers/dashboard.php:109
 msgid "Private"
 msgstr ""
 
-#: ..\..\../source/controllers/Dashboard.php:112
+#: ..\..\../source/controllers/dashboard.php:112
 msgid "Create Channel"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:30
+#: ..\..\../source/controllers/register.php:30
 msgid "Sorry. That username is already taken."
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:46
+#: ..\..\../source/controllers/register.php:46
 msgid "Sorry. That email address is already taken."
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:76
-#: ..\..\../source/controllers/Settings.php:41
+#: ..\..\../source/controllers/register.php:76
 msgid "Email Address"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:79
+#: ..\..\../source/controllers/register.php:79
 msgid "user@example.com"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:81
+#: ..\..\../source/controllers/register.php:81
 msgid "Confirm Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Register.php:82
+#: ..\..\../source/controllers/register.php:82
 msgid "confirm user@example.com"
 msgstr ""
 
-#: ..\..\../source/controllers/Settings.php:40
-msgid "Real Name"
+#: ..\..\../source/controllers/settings.php:88
+msgid "Username updated."
 msgstr ""
 
-#: ..\..\../source/controllers/Settings.php:43
+#: ..\..\../source/controllers/settings.php:98
+msgid "Real name updated."
+msgstr ""
+
+#: ..\..\../source/controllers/settings.php:107
+msgid "Email address updated."
+msgstr ""
+
+#: ..\..\../source/controllers/settings.php:115
+msgid "Name"
+msgstr ""
+
+#: ..\..\../source/controllers/settings.php:118
 msgid "Update Account Settings"
 msgstr ""
 
-#: ..\..\../source/controllers/Settings.php:63
+#: ..\..\../source/controllers/settings.php:133
+msgid "Invalid Password."
+msgstr ""
+
+#: ..\..\../source/controllers/settings.php:145
+msgid "Password updated."
+msgstr ""
+
+#: ..\..\../source/controllers/settings.php:148
 msgid "Current Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Settings.php:65
+#: ..\..\../source/controllers/settings.php:150
 msgid "New Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Settings.php:67
+#: ..\..\../source/controllers/settings.php:152
 msgid "Confirm New Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Settings.php:69
+#: ..\..\../source/controllers/settings.php:154
 msgid "Change Password"
 msgstr ""
 
-#: ..\..\../source/controllers/Xss.php:103
-#, php-format
-msgid "Hi, %s"
-msgstr ""
-
-#: ..\..\../source/controllers/Xss.php:108
-msgid "Dashboard"
-msgstr "계기판"
-
-#: ..\..\../source/controllers/Xss.php:109
-msgid "Logout"
-msgstr "GAYSEX"
-
-#: ..\..\../source/controllers/Xss.php:116
-msgid "Browse"
-msgstr "찾아보기"
-
-#: ..\..\../source/controllers/Xss.php:117
-msgid "About"
-msgstr "회사 소개"
-
-#: ..\..\../source/controllers/Xss.php:118
-msgid "Assets"
-msgstr "EE~~!"
-
-#: ..\..\../source/controllers/Xss.php:140
-msgid "Users Online"
-msgstr ""
-
-#: ..\..\../source/lib/Form.php:28
+#: ..\..\../source/lib/form.php:31
 msgid "Submit"
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:113
-msgid "required"
+#: ..\..\../source/lib/form.php:120
+msgid "Required..."
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:206
+#: ..\..\../source/lib/form.php:227
 msgid "This field is required."
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:215
+#: ..\..\../source/lib/form.php:236
+#, php-format
+msgid "This field is needs to be at least %d characters long."
+msgstr ""
+
+#: ..\..\../source/lib/form.php:245
+#, php-format
+msgid "This field cannot be at longer than %d characters."
+msgstr ""
+
+#: ..\..\../source/lib/form.php:254
 msgid "Please provide a valid email address."
 msgstr ""
 
-#: ..\..\../source/lib/Form.php:224
+#: ..\..\../source/lib/form.php:263
+msgid "This field should only contain numbers."
+msgstr ""
+
+#: ..\..\../source/lib/form.php:272
 #, php-format
 msgid "This field does not match %s."
 msgstr ""
 
-#: ..\..\../source/models/Notification.php:134
+#: ..\..\../source/models/notification.php:134
 #, php-format
 msgid "%s mentioned you in %s."
 msgstr ""
 
-#: ..\..\../source/models/Notification.php:138
+#: ..\..\../source/models/notification.php:138
 #, php-format
 msgid "%s has requested permission access to %s."
 msgstr ""
 
-#: ..\..\../source/views/Embed/Footer.php:4
-#: ..\..\../source/views/Main/Footer.php:4
+#: ..\..\../source/views/embed/footer.php:4
+#: ..\..\../source/views/main/footer.php:4
 msgid "This site makes extensive use of JavaScript."
 msgstr ""
 
-#: ..\..\../source/views/Embed/Footer.php:5
-#: ..\..\../source/views/Main/Footer.php:5
+#: ..\..\../source/views/embed/footer.php:5
+#: ..\..\../source/views/main/footer.php:5
 #, php-format
 msgid "Please %senable JavaScript%s in your browser."
 msgstr ""
 
-#: ..\..\../source/views/Embed/Header.php:17
-#: ..\..\../source/views/Main/Header.php:16
+#: ..\..\../source/views/embed/header.php:12
+#, php-format
+msgid "Hi, %s"
+msgstr ""
+
+#: ..\..\../source/views/embed/header.php:17
 msgid "Settings"
 msgstr ""
 
-#: ..\..\../source/views/Embed/Header.php:31
-#: ..\..\../source/views/Main/Header.php:30
+#: ..\..\../source/views/embed/header.php:18
+msgid "Dashboard"
+msgstr "계기판"
+
+#: ..\..\../source/views/embed/header.php:19
+msgid "Logout"
+msgstr "GAYSEX"
+
+#: ..\..\../source/views/embed/header.php:25
+msgid "Browse"
+msgstr "찾아보기"
+
+#: ..\..\../source/views/embed/header.php:26
+msgid "About"
+msgstr "회사 소개"
+
+#: ..\..\../source/views/embed/header.php:27
+msgid "Assets"
+msgstr "EE~~!"
+
+#: ..\..\../source/views/embed/header.php:31
 msgid "Close"
 msgstr ""
 
-#: ..\..\../source/views/Embed/Header.php:31
-#: ..\..\../source/views/Main/Header.php:30
+#: ..\..\../source/views/embed/header.php:31
 msgid "Refresh"
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:14
+#: ..\..\../source/views/helpers/channel.php:38
+msgid "Private Channel"
+msgstr ""
+
+#: ..\..\../source/views/helpers/channel.php:40
+msgid "Request Access"
+msgstr ""
+
+#: ..\..\../source/views/helpers/channel.php:51
+msgid "No Users."
+msgstr ""
+
+#: ..\..\../source/views/helpers/channel.php:58
+msgid "Embed Key"
+msgstr ""
+
+#: ..\..\../source/views/main/footer.php:14
 msgid "Change Language"
 msgstr "언어 변경"
 
-#: ..\..\../source/views/Main/Footer.php:18
+#: ..\..\../source/views/main/footer.php:18
 msgid "Feedback"
 msgstr "로그인"
 
-#: ..\..\../source/views/Main/Footer.php:19
+#: ..\..\../source/views/main/footer.php:19
 msgid "Status"
 msgstr "지위"
 
-#: ..\..\../source/views/Main/Footer.php:20
+#: ..\..\../source/views/main/footer.php:20
 msgid "API"
 msgstr ""
 
-#: ..\..\../source/views/Main/Footer.php:21
+#: ..\..\../source/views/main/footer.php:21
 msgid "Mobile"
 msgstr ""
 
-#: ..\..\../source/views/Main/Header.php:11
+#: ..\..\../source/views/main/header.php:11
+#: ..\..\../source/views/main/chat/default.php:37
 msgid "Loading"
 msgstr ""
 
-#: ..\..\../source/views/Main/Main.php:70
-msgid "Disconected"
-msgstr ""
-
-#: ..\..\../source/views/Main/Main.php:73
-msgid "Sorry your message is over the length limit"
-msgstr ""
-
-#: ..\..\../source/views/Main/Browse/Default.php:1
+#: ..\..\../source/views/main/browse/default.php:1
 msgid "Public Channels"
 msgstr ""
 
-#: ..\..\../source/views/Main/Chat/Default.php:113
+#: ..\..\../source/views/main/chat/default.php:18
+#: ..\..\../source/views/main/chat/default.php:54
+msgid "Users Online"
+msgstr ""
+
+#: ..\..\../source/views/main/chat/default.php:68
+msgid "Send"
+msgstr ""
+
+#: ..\..\../source/views/main/chat/default.php:70
 msgid "Type your message here..."
 msgstr ""
 
-#: ..\..\../source/views/Main/Chat/Default.php:116
+#: ..\..\../source/views/main/chat/default.php:73
 msgid "Markdown Help & tips"
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:12
+#: ..\..\../source/views/main/chat/default.php:99
+msgid "Disconected"
+msgstr ""
+
+#: ..\..\../source/views/main/chat/default.php:102
+msgid "Sorry your message is over the length limit"
+msgstr ""
+
+#: ..\..\../source/views/main/dashboard/default.php:12
 #, php-format
 msgid "Your email address %s has yet to be validated."
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:13
+#: ..\..\../source/views/main/dashboard/default.php:13
 msgid "You need to validate it to own a channel."
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:17
+#: ..\..\../source/views/main/dashboard/default.php:17
 msgid "Thank you. Verification email has been sent."
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:25
+#: ..\..\../source/views/main/dashboard/default.php:25
 #, php-format
 msgid "You already have %s or more channels.<br/><b>You cannot create anymore.</b>"
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:35
+#: ..\..\../source/views/main/dashboard/default.php:37
 msgid "Your Channels"
 msgstr ""
 
-#: ..\..\../source/views/Main/Dashboard/Default.php:50
-msgid "You current do not own any channels"
+#: ..\..\../source/views/main/dashboard/default.php:56
+msgid "You currently do not own any channels"
 msgstr ""
 
-#: ..\..\../source/views/Main/Register/Default.php:3
-msgid "Create an Account"
+#: ..\..\../source/views/main/default/default.php:7
+msgid "Real-time group discussions"
 msgstr ""
 
-#: ..\..\../source/views/Main/Settings/Default.php:4
-msgid "Your Settings"
+#: ..\..\../source/views/main/default/default.php:9
+msgid "Scussion is a service which powers online communities, interest groups and businesses requiring real-time discussion functionality.<br/><br/>Integrate with your existing community easily and increase member engagement."
 msgstr ""
 
-#: ..\..\../source/views/Notification/Notifications/Default.php:1
-msgid "View All"
+#: ..\..\../source/views/main/default/default.php:13
+msgid "Launching soon. Enter your email to be notified."
 msgstr ""
 
-#: ..\..\../source/views/Notification/Notifications/Default.php:2
+#: ..\..\../source/views/main/default/default.php:19
+msgid "Enter your email address."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:19
+msgid "email@address.com"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:53
+msgid "Thank you for your interest!"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:67
+msgid "Localization"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:71
+msgid "We support any language and character set. Start or empower your business or community in any language."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:82
+#: ..\..\../source/views/notification/notifications/default.php:2
 msgid "Notifications"
 msgstr ""
 
-#: ..\..\../source/views/Notification/Notifications/Default.php:49
-msgid "You currently have no notifications."
+#: ..\..\../source/views/main/default/default.php:86
+msgid "Mention a user using the @username notation and the said user will be alerted to the particular message containing the mention. If the user mentioned is not currently online they will be notified via email."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:94
+msgid "Live image & media previews"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:97
+msgid "Submit links to images, Youtube videos and other rich media and have the content be shown straight in the discussion stream."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:103
+msgid "Searchable chat transcripts"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:106
+msgid "Search chat transcripts and discussion history anytime you want, we keep a record of the conversation. Non private discussions are indexable by search engines."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:107
+msgid "Comming soon"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:117
+msgid "BETTER THAN IRC & OTHER SOLUTIONS"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:120
+msgid "IRC is a plain text medium which is far from user friendly. We provide group discussions with a experience that integrates seamlessly with your web destination and its user base.<br/><br/>Not only is the experience easier for your members there are features such as searchable and indexable chat transcripts, rich media, single sign on support and personas."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:129
+msgid "NOTHING TO INSTALL"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:132
+msgid "Scussion is software as a service, we take care of everything! Integration with your web property is as simple and secure. We are are highly scalable and can support groups and communities of any size. Plugins for popular CMS and community software make user integration and single sign-in easy."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:140
+msgid "TESTIMONIAL"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:143
+msgid "Scussion is a quick and reliable web service with advanced features you don't get in other solutions and without the hassle of hosting your own hardware infrastructure.<br/>We switched to Scussion from another group chat solution and the simple integration into our website has increased our community's engagement."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:152
+msgid "PRIVATE OR PUBLIC DISCUSSIONS"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:155
+msgid "Exclusive group? No problem... Just start a private group! Want the world to come and contribute and engage with your community or group? Great!, potential new members will be able to find discussions and topics through search engines."
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:161
+msgid "EMBEDDABLE"
+msgstr ""
+
+#: ..\..\../source/views/main/default/default.php:164
+msgid "Scussion is embeddable into into any web page or web property. Integration with your members and users is easy and allows for a great transparent user experience."
+msgstr ""
+
+#: ..\..\../source/views/main/register/default.php:3
+msgid "Create an Account"
+msgstr ""
+
+#: ..\..\../source/views/main/settings/default.php:4
+msgid "Your Settings"
+msgstr ""
+
+#: ..\..\../source/views/main/settings/default.php:16
+msgid "Your Current Avatar"
+msgstr ""
+
+#: ..\..\../source/views/main/settings/default.php:20
+#, php-format
+msgid "Change your avatar at %sgravatar.com%s"
+msgstr ""
+
+#: ..\..\../source/views/notification/notifications/default.php:52
+msgid "You currently have no notifications1 ."
 msgstr ""
 
