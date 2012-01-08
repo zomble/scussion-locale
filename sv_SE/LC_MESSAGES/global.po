@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-08 12:22+1000\n"
-"PO-Revision-Date: 2012-01-08 03:53+0100\n"
+"PO-Revision-Date: 2012-01-08 03:57+0100\n"
 "Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -371,7 +371,7 @@ msgstr "Tack för ditt intresse!"
 
 #: ..\..\../source/views/main/default/default.php:67
 msgid "Localization"
-msgstr "Ort"
+msgstr "Språk"
 
 #: ..\..\../source/views/main/default/default.php:71
 msgid "We support any language and character set. Start or empower your business or community in any language."
