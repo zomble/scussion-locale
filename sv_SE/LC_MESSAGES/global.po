@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-08 12:22+1000\n"
-"PO-Revision-Date: 2012-01-08 12:25+1000\n"
-"Last-Translator: Paul <paul@zomble.com.au>\n"
+"PO-Revision-Date: 2012-01-08 03:53+0100\n"
+"Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,44 +19,44 @@ msgstr ""
 
 #: ..\..\../source/controllers/auth.php:33
 msgid "Invalid username and/or password."
-msgstr ""
+msgstr "Fel användarnamn och/eller lösenord."
 
 #: ..\..\../source/controllers/auth.php:49
 #: ..\..\../source/controllers/register.php:74
 msgid "Username"
-msgstr ""
+msgstr "Användarnamn"
 
 #: ..\..\../source/controllers/auth.php:51
 #: ..\..\../source/controllers/register.php:78
 msgid "Password"
-msgstr ""
+msgstr "Lösenord"
 
 #: ..\..\../source/controllers/auth.php:53
 #: ..\..\../source/controllers/register.php:84
 msgid "or"
-msgstr ""
+msgstr "eller"
 
 #: ..\..\../source/controllers/auth.php:53
 #: ..\..\../source/controllers/register.php:85
 msgid "Create Account"
-msgstr ""
+msgstr "Skapa Konto"
 
 #: ..\..\../source/controllers/auth.php:54
 #: ..\..\../source/controllers/register.php:84
 msgid "Sign In"
-msgstr ""
+msgstr "Logga In"
 
 #: ..\..\../source/controllers/dashboard.php:32
 msgid "Resend Verification Email"
-msgstr ""
+msgstr "Skicka Verifierings Email"
 
 #: ..\..\../source/controllers/dashboard.php:47
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: ..\..\../source/controllers/dashboard.php:48
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: ..\..\../source/controllers/dashboard.php:61
 msgid "Channel public key is empty. You have entered a bad name."
@@ -64,202 +64,202 @@ msgstr ""
 
 #: ..\..\../source/controllers/dashboard.php:67
 msgid "It appears that channel already exists. Choose a different name."
-msgstr ""
+msgstr "Det verkar som att den kanalen redan existerar. Välj ett annat namn."
 
 #: ..\..\../source/controllers/dashboard.php:103
 msgid "Title / Name"
-msgstr ""
+msgstr "Titel / Namn"
 
 #: ..\..\../source/controllers/dashboard.php:104
 msgid "Enter a name for your channel..."
-msgstr ""
+msgstr "Välj ett namn för din kanal..."
 
 #: ..\..\../source/controllers/dashboard.php:106
 msgid "Description"
-msgstr ""
+msgstr "Beskrivning"
 
 #: ..\..\../source/controllers/dashboard.php:107
 #: ..\..\../source/controllers/dashboard.php:110
 msgid "Enter a description of your channel..."
-msgstr ""
+msgstr "Välj en beskrivning för din kanal..."
 
 #: ..\..\../source/controllers/dashboard.php:109
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: ..\..\../source/controllers/dashboard.php:112
 msgid "Create Channel"
-msgstr ""
+msgstr "Skapa Kanal"
 
 #: ..\..\../source/controllers/register.php:30
 msgid "Sorry. That username is already taken."
-msgstr ""
+msgstr "Ledsen, det användarnamnet används redan."
 
 #: ..\..\../source/controllers/register.php:46
 msgid "Sorry. That email address is already taken."
-msgstr ""
+msgstr "Ledsen, den emailen används redan."
 
 #: ..\..\../source/controllers/register.php:76
 msgid "Email Address"
-msgstr ""
+msgstr "Email Adress"
 
 #: ..\..\../source/controllers/register.php:79
 msgid "user@example.com"
-msgstr ""
+msgstr "användare@exemple.se"
 
 #: ..\..\../source/controllers/register.php:81
 #: ..\..\../source/controllers/register.php:82
 msgid "Confirm Password"
-msgstr ""
+msgstr "Konfirmera Lösenord"
 
 #: ..\..\../source/controllers/settings.php:88
 msgid "Username updated."
-msgstr ""
+msgstr "Användarnamn Uppdaterat."
 
 #: ..\..\../source/controllers/settings.php:98
 msgid "Real name updated."
-msgstr ""
+msgstr "Namn uppdaterat."
 
 #: ..\..\../source/controllers/settings.php:107
 msgid "Email address updated."
-msgstr ""
+msgstr "Email uppdaterad."
 
 #: ..\..\../source/controllers/settings.php:115
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: ..\..\../source/controllers/settings.php:118
 msgid "Update Account Settings"
-msgstr ""
+msgstr "Uppdatera Konto Inställningar"
 
 #: ..\..\../source/controllers/settings.php:133
 msgid "Invalid Password."
-msgstr ""
+msgstr "Fel lösenord."
 
 #: ..\..\../source/controllers/settings.php:145
 msgid "Password updated."
-msgstr ""
+msgstr "Lösenord Uppdaterat."
 
 #: ..\..\../source/controllers/settings.php:148
 msgid "Current Password"
-msgstr ""
+msgstr "Nuvarande Lösenord"
 
 #: ..\..\../source/controllers/settings.php:150
 msgid "New Password"
-msgstr ""
+msgstr "Nytt Lösenord"
 
 #: ..\..\../source/controllers/settings.php:152
 msgid "Confirm New Password"
-msgstr ""
+msgstr "Konfirmera Nytt Lösenord"
 
 #: ..\..\../source/controllers/settings.php:154
 msgid "Change Password"
-msgstr ""
+msgstr "Byt lösenord"
 
 #: ..\..\../source/lib/form.php:31
 msgid "Submit"
-msgstr ""
+msgstr "Skicka"
 
 #: ..\..\../source/lib/form.php:120
 msgid "Required..."
-msgstr ""
+msgstr "Obligatoriskt..."
 
 #: ..\..\../source/lib/form.php:227
 msgid "This field is required."
-msgstr ""
+msgstr "Detta fältet är obligatoriskt."
 
 #: ..\..\../source/lib/form.php:236
 #, php-format
 msgid "This field is needs to be at least %d characters long."
-msgstr ""
+msgstr "Detta fältet måste vara minst %d tecken långt."
 
 #: ..\..\../source/lib/form.php:245
 #, php-format
 msgid "This field cannot be at longer than %d characters."
-msgstr ""
+msgstr "Detta fältet kan inte vara längre än %d tecken."
 
 #: ..\..\../source/lib/form.php:254
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "Var vänlig ange en riktig email."
 
 #: ..\..\../source/lib/form.php:263
 msgid "This field should only contain numbers."
-msgstr ""
+msgstr "Detta fältet borde bara innehålla nummer."
 
 #: ..\..\../source/lib/form.php:272
 #, php-format
 msgid "This field does not match %s."
-msgstr ""
+msgstr "Detta fältet matchar inte %s."
 
 #: ..\..\../source/models/notification.php:134
 #, php-format
 msgid "%s mentioned you in %s."
-msgstr ""
+msgstr "%s nämnde dig i %s."
 
 #: ..\..\../source/models/notification.php:138
 #, php-format
 msgid "%s has requested permission access to %s."
-msgstr ""
+msgstr "%s har begärt tillgång till %s."
 
 #: ..\..\../source/views/embed/footer.php:4
 #: ..\..\../source/views/main/footer.php:4
 msgid "This site makes extensive use of JavaScript."
-msgstr ""
+msgstr "Denna site använder sig utav JavaScript."
 
 #: ..\..\../source/views/embed/footer.php:5
 #: ..\..\../source/views/main/footer.php:5
 #, php-format
 msgid "Please %senable JavaScript%s in your browser."
-msgstr ""
+msgstr "Var vänlig %stillåt JavaScript%s i din webbläsare."
 
 #: ..\..\../source/views/embed/header.php:12
 #, php-format
 msgid "Hi, %s"
-msgstr ""
+msgstr "Hej, %s"
 
 #: ..\..\../source/views/embed/header.php:17
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 #: ..\..\../source/views/embed/header.php:18
 msgid "Dashboard"
-msgstr ""
+msgstr "Kontrollpanel"
 
 #: ..\..\../source/views/embed/header.php:19
 msgid "Logout"
-msgstr ""
+msgstr "Logga ut"
 
 #: ..\..\../source/views/embed/header.php:25
 msgid "Browse"
-msgstr ""
+msgstr "Bläddra"
 
 #: ..\..\../source/views/embed/header.php:26
 msgid "About"
-msgstr ""
+msgstr "Om Oss"
 
 #: ..\..\../source/views/embed/header.php:27
 msgid "Assets"
-msgstr ""
+msgstr "Tillgångar"
 
 #: ..\..\../source/views/embed/header.php:31
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: ..\..\../source/views/embed/header.php:31
 msgid "Refresh"
-msgstr ""
+msgstr "Uppdatera"
 
 #: ..\..\../source/views/helpers/channel.php:38
 msgid "Private Channel"
-msgstr ""
+msgstr "Privat Kanal"
 
 #: ..\..\../source/views/helpers/channel.php:40
 msgid "Request Access"
-msgstr ""
+msgstr "Begär Tillgång"
 
 #: ..\..\../source/views/helpers/channel.php:51
 msgid "No Users."
-msgstr ""
+msgstr "Inga Användare."
 
 #: ..\..\../source/views/helpers/channel.php:58
 msgid "Embed Key"
@@ -267,45 +267,45 @@ msgstr ""
 
 #: ..\..\../source/views/main/footer.php:14
 msgid "Change Language"
-msgstr ""
+msgstr "Byt Språk"
 
 #: ..\..\../source/views/main/footer.php:18
 msgid "Feedback"
-msgstr ""
+msgstr "Feedback"
 
 #: ..\..\../source/views/main/footer.php:19
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ..\..\../source/views/main/footer.php:20
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ..\..\../source/views/main/footer.php:21
 msgid "Mobile"
-msgstr ""
+msgstr "Mobil"
 
 #: ..\..\../source/views/main/header.php:11
 #: ..\..\../source/views/main/chat/default.php:37
 msgid "Loading"
-msgstr ""
+msgstr "Laddar"
 
 #: ..\..\../source/views/main/browse/default.php:1
 msgid "Public Channels"
-msgstr ""
+msgstr "Publika Kanaler"
 
 #: ..\..\../source/views/main/chat/default.php:18
 #: ..\..\../source/views/main/chat/default.php:54
 msgid "Users Online"
-msgstr ""
+msgstr "Användare Online"
 
 #: ..\..\../source/views/main/chat/default.php:68
 msgid "Send"
-msgstr ""
+msgstr "Skicka"
 
 #: ..\..\../source/views/main/chat/default.php:70
 msgid "Type your message here..."
-msgstr ""
+msgstr "Skriv ditt meddelande här..."
 
 #: ..\..\../source/views/main/chat/default.php:73
 msgid "Markdown Help & tips"
@@ -313,37 +313,37 @@ msgstr ""
 
 #: ..\..\../source/views/main/chat/default.php:99
 msgid "Disconected"
-msgstr ""
+msgstr "Utloggad"
 
 #: ..\..\../source/views/main/chat/default.php:102
 msgid "Sorry your message is over the length limit"
-msgstr ""
+msgstr "Ledsen, ditt meddelande är över antalet tillåtna tecken."
 
 #: ..\..\../source/views/main/dashboard/default.php:12
 #, php-format
 msgid "Your email address %s has yet to be validated."
-msgstr ""
+msgstr "Din email %s har inte blivit bekräftad än."
 
 #: ..\..\../source/views/main/dashboard/default.php:13
 msgid "You need to validate it to own a channel."
-msgstr ""
+msgstr "Du måste bekräfta den för att äga en kanal."
 
 #: ..\..\../source/views/main/dashboard/default.php:17
 msgid "Thank you. Verification email has been sent."
-msgstr ""
+msgstr "Tack. Ett verifikation mail har nu skickats."
 
 #: ..\..\../source/views/main/dashboard/default.php:25
 #, php-format
 msgid "You already have %s or more channels.<br/><b>You cannot create anymore.</b>"
-msgstr ""
+msgstr "Du har redan %s eller mer kanaler.<br/><b>Du kan inte skapa några fler.</b>"
 
 #: ..\..\../source/views/main/dashboard/default.php:37
 msgid "Your Channels"
-msgstr ""
+msgstr "Dina Kanaler"
 
 #: ..\..\../source/views/main/dashboard/default.php:56
 msgid "You currently do not own any channels"
-msgstr ""
+msgstr "Du äger för tillfället inga kanaler"
 
 #: ..\..\../source/views/main/default/default.php:7
 msgid "Real-time group discussions"
@@ -355,23 +355,23 @@ msgstr ""
 
 #: ..\..\../source/views/main/default/default.php:13
 msgid "Launching soon. Enter your email to be notified."
-msgstr ""
+msgstr "Lanseras snart. Skriv in din email för att bli notifierad."
 
 #: ..\..\../source/views/main/default/default.php:19
 msgid "Enter your email address."
-msgstr ""
+msgstr "Skriv in din email."
 
 #: ..\..\../source/views/main/default/default.php:19
 msgid "email@address.com"
-msgstr ""
+msgstr "email@adress.se"
 
 #: ..\..\../source/views/main/default/default.php:53
 msgid "Thank you for your interest!"
-msgstr ""
+msgstr "Tack för ditt intresse!"
 
 #: ..\..\../source/views/main/default/default.php:67
 msgid "Localization"
-msgstr ""
+msgstr "Ort"
 
 #: ..\..\../source/views/main/default/default.php:71
 msgid "We support any language and character set. Start or empower your business or community in any language."
@@ -380,7 +380,7 @@ msgstr ""
 #: ..\..\../source/views/main/default/default.php:82
 #: ..\..\../source/views/notification/notifications/default.php:2
 msgid "Notifications"
-msgstr ""
+msgstr "Notifikationer"
 
 #: ..\..\../source/views/main/default/default.php:86
 msgid "Mention a user using the @username notation and the said user will be alerted to the particular message containing the mention. If the user mentioned is not currently online they will be notified via email."
@@ -388,7 +388,7 @@ msgstr ""
 
 #: ..\..\../source/views/main/default/default.php:94
 msgid "Live image & media previews"
-msgstr ""
+msgstr "Live bilder och media tjuvtittar"
 
 #: ..\..\../source/views/main/default/default.php:97
 msgid "Submit links to images, Youtube videos and other rich media and have the content be shown straight in the discussion stream."
@@ -404,11 +404,11 @@ msgstr ""
 
 #: ..\..\../source/views/main/default/default.php:107
 msgid "Comming soon"
-msgstr ""
+msgstr "Kommer snart"
 
 #: ..\..\../source/views/main/default/default.php:117
 msgid "Better then IRC & other solutions"
-msgstr ""
+msgstr "Bättre än IRC och andra lösningar"
 
 #: ..\..\../source/views/main/default/default.php:120
 msgid "IRC is a plain text medium which is far from user friendly. We provide group discussions with a experience that integrates seamlessly with your web destination and its user base.<br/><br/>Not only is the experience easier for your members there are features such as searchable and indexable chat transcripts, rich media, single sign on support and personas."
@@ -416,7 +416,7 @@ msgstr ""
 
 #: ..\..\../source/views/main/default/default.php:129
 msgid "Nothing to Install"
-msgstr ""
+msgstr "Inget att installera"
 
 #: ..\..\../source/views/main/default/default.php:132
 msgid "Scussion is software as a service, we take care of everything! Integration with your web property is as simple and secure. We are are highly scalable and can support groups and communities of any size. Plugins for popular CMS and community software make user integration and single sign-in easy."
@@ -440,7 +440,7 @@ msgstr ""
 
 #: ..\..\../source/views/main/default/default.php:161
 msgid "Embeddable"
-msgstr ""
+msgstr "Inbäddningsbar"
 
 #: ..\..\../source/views/main/default/default.php:164
 msgid "Scussion is embeddable into into any web page or web property. Integration with your members and users is easy and allows for a great transparent user experience."
@@ -448,22 +448,22 @@ msgstr ""
 
 #: ..\..\../source/views/main/register/default.php:3
 msgid "Create an Account"
-msgstr ""
+msgstr "Skapa ett Konto"
 
 #: ..\..\../source/views/main/settings/default.php:4
 msgid "Your Settings"
-msgstr ""
+msgstr "Dina Inställningar"
 
 #: ..\..\../source/views/main/settings/default.php:16
 msgid "Your Current Avatar"
-msgstr ""
+msgstr "Ditt Nuvarande Avatar"
 
 #: ..\..\../source/views/main/settings/default.php:20
 #, php-format
 msgid "Change your avatar at %sgravatar.com%s"
-msgstr ""
+msgstr "Byt din avatar på %sgravatar.com%s"
 
 #: ..\..\../source/views/notification/notifications/default.php:52
 msgid "You currently have no notifications."
-msgstr ""
+msgstr "Du har för tillfället inga notifikationer."
 
