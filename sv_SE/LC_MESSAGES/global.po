@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-08 12:22+1000\n"
-"PO-Revision-Date: 2012-01-08 03:57+0100\n"
+"PO-Revision-Date: 2012-01-09 10:48+0100\n"
 "Last-Translator: Gustav Johansson <gustav-j@live.se>\n"
 "Language-Team:  <locale@zomble.com.au>\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgstr "Välj en beskrivning för din kanal..."
 
 #: ..\..\../source/controllers/dashboard.php:109
 msgid "Private"
-msgstr "Privat"
+msgstr "Privat?"
 
 #: ..\..\../source/controllers/dashboard.php:112
 msgid "Create Channel"
@@ -130,7 +130,7 @@ msgstr "Namn"
 
 #: ..\..\../source/controllers/settings.php:118
 msgid "Update Account Settings"
-msgstr "Uppdatera Konto Inställningar"
+msgstr "Uppdatera konto inställningar"
 
 #: ..\..\../source/controllers/settings.php:133
 msgid "Invalid Password."
@@ -223,7 +223,7 @@ msgstr "Inställningar"
 
 #: ..\..\../source/views/embed/header.php:18
 msgid "Dashboard"
-msgstr "Kontrollpanel"
+msgstr "Kanaler"
 
 #: ..\..\../source/views/embed/header.php:19
 msgid "Logout"
@@ -339,7 +339,7 @@ msgstr "Du har redan %s eller mer kanaler.<br/><b>Du kan inte skapa några fler.
 
 #: ..\..\../source/views/main/dashboard/default.php:37
 msgid "Your Channels"
-msgstr "Dina Kanaler"
+msgstr "Dina kanaler"
 
 #: ..\..\../source/views/main/dashboard/default.php:56
 msgid "You currently do not own any channels"
@@ -347,7 +347,7 @@ msgstr "Du äger för tillfället inga kanaler"
 
 #: ..\..\../source/views/main/default/default.php:7
 msgid "Real-time group discussions"
-msgstr ""
+msgstr "Real-time grupp diskussioner"
 
 #: ..\..\../source/views/main/default/default.php:9
 msgid "Scussion is a service which powers online communities, interest groups and businesses requiring real-time discussion functionality.<br/><br/>Integrate with your existing community easily and increase member engagement."
@@ -375,7 +375,7 @@ msgstr "Språk"
 
 #: ..\..\../source/views/main/default/default.php:71
 msgid "We support any language and character set. Start or empower your business or community in any language."
-msgstr ""
+msgstr "Vi stöder alla språk och tecken. Starta eller förstärk ditt företag eller community i vilket språk du vill."
 
 #: ..\..\../source/views/main/default/default.php:82
 #: ..\..\../source/views/notification/notifications/default.php:2
@@ -384,7 +384,7 @@ msgstr "Notifikationer"
 
 #: ..\..\../source/views/main/default/default.php:86
 msgid "Mention a user using the @username notation and the said user will be alerted to the particular message containing the mention. If the user mentioned is not currently online they will be notified via email."
-msgstr ""
+msgstr "Nämn en användare med hjälp av @användarnamn och den nämna användaren kommer bli notifierad om din mening som dess namn nämndes i. Ifall användaren inte är online för tillfället kommer de bli notifierade via mail."
 
 #: ..\..\../source/views/main/default/default.php:94
 msgid "Live image & media previews"
@@ -392,11 +392,11 @@ msgstr "Live bilder och media tjuvtittar"
 
 #: ..\..\../source/views/main/default/default.php:97
 msgid "Submit links to images, Youtube videos and other rich media and have the content be shown straight in the discussion stream."
-msgstr ""
+msgstr "Skicka länkar på bilder, Youtube videos och annan slags media och låt innehållet visas direkt i din diskussion stream."
 
 #: ..\..\../source/views/main/default/default.php:103
 msgid "Searchable chat transcripts"
-msgstr ""
+msgstr "Sökbara chatt protokoll"
 
 #: ..\..\../source/views/main/default/default.php:106
 msgid "Search chat transcripts and discussion history anytime you want, we keep a record of the conversation. Non private discussions are indexable by search engines."
@@ -412,7 +412,7 @@ msgstr "Bättre än IRC och andra lösningar"
 
 #: ..\..\../source/views/main/default/default.php:120
 msgid "IRC is a plain text medium which is far from user friendly. We provide group discussions with a experience that integrates seamlessly with your web destination and its user base.<br/><br/>Not only is the experience easier for your members there are features such as searchable and indexable chat transcripts, rich media, single sign on support and personas."
-msgstr ""
+msgstr "IRC är en enkelt text medium som är långt från användar vänligt. Vi ger er grupp disskussioner med en upplevelse som integrerar sömlöst  med din webb destination och sin användar bas.<br/><br/>Inte bara är upplevelsen enklare för dina medlemmar utan det finns verktyg så som sökbara chatt scripts."
 
 #: ..\..\../source/views/main/default/default.php:129
 msgid "Nothing to Install"
@@ -420,23 +420,23 @@ msgstr "Inget att installera"
 
 #: ..\..\../source/views/main/default/default.php:132
 msgid "Scussion is software as a service, we take care of everything! Integration with your web property is as simple and secure. We are are highly scalable and can support groups and communities of any size. Plugins for popular CMS and community software make user integration and single sign-in easy."
-msgstr ""
+msgstr "Scussion är en mjukvara som service, vi tar hand om allting! Integration med din egna webbsida är enkel och säker. Vi är högt skalbara och kan stöda grupper och communities av alla storlekar. Plugins för populär CMS och community mjukvara gör användar integreringen och enkel inloggning enkel."
 
 #: ..\..\../source/views/main/default/default.php:140
 msgid "Testimonial"
-msgstr ""
+msgstr "Betyg"
 
 #: ..\..\../source/views/main/default/default.php:143
 msgid "Scussion is a quick and reliable web service with advanced features you don't get in other solutions and without the hassle of hosting your own hardware infrastructure.<br/>We switched to Scussion from another group chat solution and the simple integration into our website has increased our community's engagement."
-msgstr ""
+msgstr "Scussion är en snabb och trovärdig web service med avancerade verktyg du inte har tillgång till i andra lösningar och utan att krångla med att hosta din egen hårdvara m.m. <br/>Vi bytte till Scussion från en annan slags grupp chatt lösning och den simpla integration på vår hemsida har öket vårt communitys engagemang."
 
 #: ..\..\../source/views/main/default/default.php:152
 msgid "Private and Public Discussions"
-msgstr ""
+msgstr "Privata och Publika Diskussioner"
 
 #: ..\..\../source/views/main/default/default.php:155
 msgid "Exclusive group? No problem... Just start a private group! Want the world to come and contribute and engage with your community or group? Great!, potential new members will be able to find discussions and topics through search engines."
-msgstr ""
+msgstr "Exklusiv grupp? Inga problem... Starta bara en privat grupp! Vill du att världen ska komma och medverka i din community eller grupp? Bra!, potentiella nya  medlemmar kommer att kunna hitta diskussioner och trådar via sök motorer."
 
 #: ..\..\../source/views/main/default/default.php:161
 msgid "Embeddable"
@@ -444,7 +444,7 @@ msgstr "Inbäddningsbar"
 
 #: ..\..\../source/views/main/default/default.php:164
 msgid "Scussion is embeddable into into any web page or web property. Integration with your members and users is easy and allows for a great transparent user experience."
-msgstr ""
+msgstr "Scussion är inbäddningsbar i alla sorters hemsidor. Integration med dina medlemmar och användare är enkelt och tillåter för ett bra transparent användar gränssnitt."
 
 #: ..\..\../source/views/main/register/default.php:3
 msgid "Create an Account"
@@ -456,7 +456,7 @@ msgstr "Dina Inställningar"
 
 #: ..\..\../source/views/main/settings/default.php:16
 msgid "Your Current Avatar"
-msgstr "Ditt Nuvarande Avatar"
+msgstr "Din Nuvarande Avatar"
 
 #: ..\..\../source/views/main/settings/default.php:20
 #, php-format
